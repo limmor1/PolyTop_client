@@ -1,0 +1,100 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    >
+    <PreferenceCategory
+        android:title="Connection">
+        <EditTextPreference
+            android:key="server_ip_preference"
+            android:title="Server IP"
+            android:dialogTitle="New IP"
+            android:defaultValue="192.168.1.100"
+            />
+
+        <Preference
+            android:key="client_ip_preference"
+            android:title="Client IP"
+            />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="GUI">
+        <CheckBoxPreference
+            android:key="radi_visible_preference"
+            android:title="Show quantization boundaries when adding nodes"
+            android:defaultValue="true"
+            />
+
+        <CheckBoxPreference
+            android:key="hand_mode_menu_sticky"
+            android:title="Do not collapse hand mode menu"
+            android:defaultValue="false"
+            android:enabled="true"
+            />
+        <CheckBoxPreference
+            android:key="voice_type_menu_sticky"
+            android:title="Do not collapse voice type menu"
+            android:defaultValue="false"
+            android:enabled="true"
+            />
+        <CheckBoxPreference
+            android:key="alg_menu_sticky"
+            android:title="Do not collapse algorithm menu"
+            android:defaultValue="false"
+            android:enabled="true"
+            />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Playback">
+        <CheckBoxPreference
+            android:key="movement_mode_on"
+            android:title="Movement-based triggering"
+            android:summary="Use movement-based triggers, instead of time-based"
+            android:defaultValue="false"
+            />
+        <EditTextPreference
+            android:key="disc_update_distance"
+            android:title="Movement threshold (disc)"
+            android:subtitle="Movement in discrete mode before voice is triggered (px)"
+            android:defaultValue="50"
+            android:inputType="number"
+            />
+        <EditTextPreference
+            android:key="cont_update_distance"
+            android:title="Movement threshold (cont)"
+            android:summary="Movement in continuous mode before voice is triggered (px)"
+            android:defaultValue="5"
+            android:inputType="number"
+            />
+        <CheckBoxPreference
+            android:key="timed_mode_on"
+            android:title="Time-based triggering"
+            android:summary="Use time-based triggers, instead of movement-based"
+            android:defaultValue="false"
+            />
+        <EditTextPreference
+            android:key="timed_mode_update_period"
+            android:title="Triggering period"
+            android:defaultValue="500"
+            android:inputType="number"
+            />
+        <CheckBoxPreference
+            android:key="meander_disabled"
+            android:title="Do not switch to another Node during gesture"
+            android:summary="When another node is reached during gesture, do not switch to it"
+            android:defaultValue="false"
+            />
+
+        <!--<CheckBoxPreference-->
+        <!--android:key="fab_open_preference"-->
+        <!--android:title="Do not collapse mode button"-->
+        <!--android:defaultValue="checked"-->
+        <!--android:enabled="false"-->
+        <!--/>-->
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
+

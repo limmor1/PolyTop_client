@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/limmor1/Google Drive/Projects/PolyTop/PolyTop_client_v0.4/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="bf7aa25a14967a1beb20b9e61a731bac224e4eec">
+        <dex dex="/Users/limmor1/Google Drive/Projects/PolyTop/PolyTop_client_v0.4/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_96d84025636fc348a05c3d9d58392640d8a059f6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/limmor1/Google Drive/Projects/PolyTop/PolyTop_client_v0.4/app/libs/android-core.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a7e3edb5dae34079c904806ae9dafaa2dfc0b53b">
+        <dex dex="/Users/limmor1/Google Drive/Projects/PolyTop/PolyTop_client_v0.4/app/build/intermediates/transforms/dex/debug/folders/1000/2/android-core_6e885b1e14951df903b5ff495cd8cc08392687a0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/limmor1/Google Drive/Projects/PolyTop/PolyTop_client_v0.4/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/Users/limmor1/Google Drive/Projects/PolyTop/PolyTop_client_v0.4/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_f93120cac0dfc3e539542e8630f9362403a87ec7/classes.dex" />
+    </item>
+
+</items>

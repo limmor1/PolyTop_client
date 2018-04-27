@@ -1,0 +1,37 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion '25.0.0'
+
+    defaultConfig {
+        applicationId "com.example.johnsmith.polytopsimple"
+        minSdkVersion 23
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile files('libs/android-core.jar')
+    compile 'com.android.support:support-v4:25.2.0'
+    compile 'com.google.guava:guava:16.0.1'
+    compile 'com.google.code.gson:gson:2.2.4'
+    compile 'com.android.support:appcompat-v7:25.2.0'
+    compile 'com.android.support:design:25.2.0'
+    compile 'com.getbase:floatingactionbutton:1.10.1'
+    compile 'com.illposed.osc:javaosc-core:0.4'
+
+    testCompile 'junit:junit:4.12'
+
+    androidTestCompile 'com.android.support:support-annotations:25.2.0'
+    androidTestCompile 'com.android.support.test:runner:0.5'
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group xmlns:android="http://schemas.android.com/apk/res/android"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/gui"
+            android:title="Node map" />
+        <item
+            android:id="@+id/settings"
+            android:title="Settings" />
+    </group>
+</menu>
